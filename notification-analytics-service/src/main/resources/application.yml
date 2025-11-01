@@ -13,9 +13,6 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json.trusted.packages: "*"
-  redis:
-    host: localhost
-    port: 6379
 
 eureka:
   client:
